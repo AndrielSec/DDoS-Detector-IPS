@@ -1,5 +1,3 @@
-Markdown
-
 # 🛡️ Real-Time DDoS Detector & IPS (Intrusion Prevention System)
 
 A lightweight, high-performance network security tool written in Python that monitors live network traffic (e.g., `wlan0`, `eth0`) and dynamically mitigates potential DDoS attacks by automatically injecting firewall rules into Linux `iptables` in real-time.
@@ -80,7 +78,6 @@ Plaintext
 ⚠️ Important Note
 
 To safely shut down the engine, issue a standard interrupt sign (Ctrl + C). The internal cleanup routine will automatically flush all temporary blockades from your iptables chain and restore your initial system state cleanly.
-
 📝 License
 
 This project is open-source and available under the MIT License.
